@@ -4,9 +4,9 @@ namespace Wuwx\LaravelAdminAlpinejs;
 
 use Encore\Admin\Extension;
 
-class LaravelAdminAlpinejs extends Extension
+class Alpinejs extends Extension
 {
-    public $name = 'laravel-admin-alpinejs';
+    public $name = 'alpinejs';
 
     public $assets = __DIR__.'/../resources/assets';
 }

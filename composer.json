@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wuwx\\LaravelAdminAlpinejs\\LaravelAdminAlpinejsServiceProvider"
+                "Wuwx\\LaravelAdminAlpinejs\\AlpinejsServiceProvider"
             ]
         }
     }

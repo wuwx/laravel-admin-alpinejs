@@ -5,14 +5,14 @@ namespace Wuwx\LaravelAdminAlpinejs;
 use Encore\Admin\Facades\Admin;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelAdminAlpinejsServiceProvider extends ServiceProvider
+class AlpinejsServiceProvider extends ServiceProvider
 {
     /**
      * {@inheritdoc}
      */
-    public function boot(LaravelAdminAlpinejs $extension)
+    public function boot(Alpinejs $extension)
     {
-        if (! LaravelAdminAlpinejs::boot()) {
+        if (! Alpinejs::boot()) {
             return ;
         }
 
